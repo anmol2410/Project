@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body><div style="text-align:center ;">
+    <h1>Employee Interests Survey form</h1>
+    <form action="">
+        <label for="Name">Enter your name</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="">Enter Your Department</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="">Tell us little about yourself.</label>
+        <textarea name="" id="" cols="30" rows="4"></textarea><br><br>
+        <label for="">Do you exercise at home</label>
+        <input type="radio" name="exe"
+        value="1">yes</input>
+        <input type="radio" name="exe"
+        value="2">no</input><br><br>
+        How do you like to read about favourite topics ?
+        <p>
+            <input type="checkbox">Books
+            <input type="checkbox">Online resources
+            <input type="checkbox">Phone apps
+            <input type="checkbox">Magazines
+        </p>
+        What genre of movies did you like .
+        <select name="moviepref" >
+            <option value="1" selected="true">comdey
+            <option value="2">romance
+            <option value="3">thriller
+            <option value="4">horror
+            <option value="4">biopic
+            
+        </select><br><br>
+        <input type="submit" value="Submit Form">
+</form>
+</div>
+</body>
+</html>
